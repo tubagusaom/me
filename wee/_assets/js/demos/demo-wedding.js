@@ -60,7 +60,7 @@ Theme Version:	5.7.2
 			showLogo();
 		},
 		failure: function() {
-			showLogo();	
+			showLogo();
 		}
 	});
 
@@ -77,7 +77,7 @@ Theme Version:	5.7.2
 	});
 
 	/*
-	Custom History Load More 
+	Custom History Load More
 	*/
 	var historyLoadMore = {
 
@@ -183,7 +183,7 @@ Theme Version:	5.7.2
 			image: {
 				verticalFit: true,
 				titleSrc: function(item) {
-					
+
 				}
 			},
 			gallery: {
@@ -208,7 +208,7 @@ Theme Version:	5.7.2
 	}
 
 	/*
-	Custom Blog Load More 
+	Custom Blog Load More
 	*/
 	var blogLoadMore = {
 
@@ -381,7 +381,7 @@ Theme Version:	5.7.2
 					}
 
 					$submitButton.button('reset');
-					
+
 					return;
 
 				} else if (data.response == 'error' && typeof data.errorMessage !== 'undefined') {
@@ -401,7 +401,7 @@ Theme Version:	5.7.2
 
 				$form.find('.has-success')
 					.removeClass('has-success');
-					
+
 				$submitButton.button('reset');
 
 			});
@@ -458,7 +458,7 @@ Theme Version:	5.7.2
 					}
 
 					$submitButton.button('reset');
-					
+
 					return;
 
 				} else if (data.response == 'error' && typeof data.errorMessage !== 'undefined') {
@@ -478,7 +478,7 @@ Theme Version:	5.7.2
 
 				$form.find('.has-success')
 					.removeClass('has-success');
-					
+
 				$submitButton.button('reset');
 
 			});

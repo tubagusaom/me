@@ -13,71 +13,12 @@ class Home extends MY_Controller {
         $jenis_user = $this->auth->get_user_data()->jenis_user;
         $pegawai_id = $this->auth->get_user_data()->pegawai_id;
         //var_dump($this->auth->is_logged_in());die();s
-        // var_dump($pegawai_id); die();
+        // var_dump($jenis_user); die();
 
-        if ($jenis_user == 17) { //Appraisal
-
-            $this->db->where('id_karyawan', $pegawai_id);
-            $query = $this->db->get(kode_tbl() . 'mapping_appraisal')->result();
-            $jumlah_penugasan = count($query);
+        if ($jenis_user == 4) { //WO
 
             $template_header  = 'templates/responsive/header';
-            $template_body    = 'templates/responsive/appraisal/body';
-            $template_bottom  = 'templates/responsive/footer';
-        } else if ($jenis_user == 16) { //Showroom
-
-          // $lelang = kode_tbl().'lelang';
-    			// $dealer = kode_tbl().'dealer';
-    			$detail_dealer = kode_tbl().'detail_dealer';
-          $detail_kendaraan = kode_tbl().'detail_kendaraan';
-          $komponen_member = kode_tbl().'komponen_member';
-          $tahun_mobil = kode_tbl().'tahun_mobil';
-          $merek_mobil = kode_tbl().'merek_mobil';
-          $model_mobil = kode_tbl().'model_mobil';
-          $transmisi_mobil = kode_tbl().'transmisi_mobil';
-          $user_id = $this->auth->get_user_data()->pegawai_id;
-
-          $this->db->select('
-            a.id,
-            a.harga_kendaraan,
-            a.status_lelang,
-            b.nama_komponen,
-            b.file_komponen,
-            c.tahun_mobil,
-            d.merek_mobil,
-            e.model_mobil,
-            f.transmisi_mobil
-          ');
-
-          $this->db->where('a.status_rekomendasi', '2');
-          $this->db->where('b.status_gambar', '1');
-          $this->db->join("$komponen_member b",'a.id=b.id_detail_kendaraan');
-          $this->db->join("$tahun_mobil c", "a.id_tahun = c.id");
-          $this->db->join("$merek_mobil d","a.id_merek = d.id");
-          $this->db->join("$model_mobil e","a.id_model = e.id");
-          $this->db->join("$transmisi_mobil f","a.id_transmisi = f.id");
-          $mobil_tersedia = $this->db->get("$detail_kendaraan a")->result();
-
-
-          // $this->db->select('a.id');
-    			// $this->db->where('a.id_dealer', $pegawai_id);
-    			// $this->db->where('b.status_lelang', '1');
-    			// $this->db->join("$detail_kendaraan b",'a.id_kendaraan=b.id');
-    			// $mf = $this->db->get("$detail_dealer a")->result();
-          $this->load->model('Welcome_model');
-          $mf = $this->Welcome_model->count_bidding_favorit($pegawai_id);
-          $bidding_favorit=count($mf);
-
-            // var_dump($bidding_favorit); die();
-
-            $template_header  = 'templates/responsive/showroom/header';
-            $template_body    = 'templates/responsive/showroom/mobil_tersedia';
-            $template_bottom  = 'templates/responsive/showroom/footer';
-
-        } else if ($jenis_user == 5) { //Pemilik Kendaraan
-
-            $template_header  = 'templates/responsive/header';
-            $template_body    = 'templates/responsive/member/body';
+            $template_body    = 'templates/responsive/body';
             $template_bottom  = 'templates/responsive/footer';
 
         }else {

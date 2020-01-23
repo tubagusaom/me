@@ -48,10 +48,6 @@ class Welcome extends MY_Controller {
             $this->load->model('artikel_model');
             $data['marquee'] = $this->artikel_model->marquee();
 
-            $data['tahun_mobil'] = $this->master_mobil_model->get_tahun_mobil();
-            // $data['master_mobil'] = $this->master_mobil_model->get_mobil($idtable);
-            // var_dump($data['master_mobil']); die();
-
             $data['slideshow'] = $this->artikel_model->get_slideshow();
             $data['berita_lsp'] = $this->artikel_model->berita_lsp();
             $data['berita_bnsp'] = $this->artikel_model->berita_bnsp();
@@ -64,10 +60,6 @@ class Welcome extends MY_Controller {
             $data['aplikasi'] = $this->db->get('r_konfigurasi_aplikasi')->row();
             $data['class_active'] = 'home';
             $data['berita_lsp_list'] = $this->artikel_model->berita_lsp_list();
-
-            $data['pengunjung'] = $this->welcome_model->dataPengunjung();
-            $data['total'] = $this->welcome_model->totalPengunjung();
-            $data['rst'] = array();
 
             $this->load->view('templates/bootstraps/header',$data);
             $this->load->view('templates/bootstraps/body',$data);

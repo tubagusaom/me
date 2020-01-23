@@ -5,7 +5,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <title><?=$aplikasi->nama_unit?> - Showroom</title>
+        <title><?=$aplikasi->nama_unit?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta content="Docars" name="description" />
@@ -39,7 +39,7 @@
                     <!-- BEGIN LOGO -->
                     <div class="page-logo">
                         <a href="<?= base_url() ?>">
-                            <img class="img-rounded" style="padding-top:7px" src="<?= base_url() . 'assets/img/logo48.png' ?>" />
+                            <img class="img-rounded" style="width:55px;padding-top:7px" src="<?= base_url() . '_assets/img/tb-touch-icon.png' ?>" />
                         </a>
                         <div class="menu-toggler sidebar-toggler">
                             <span></span>
@@ -54,66 +54,16 @@
                     <!-- BEGIN TOP NAVIGATION MENU -->
                     <div class="top-menu">
                         <ul class="nav navbar-nav pull-right">
-                              <!-- <li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
-                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                    <i class="icon-envelope-open"></i>
-                                    <span class="badge badge-default"> <?= count($query_pesan_unread) ?> </span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="external">
-                                        <h3>You have
-                                            <span class="bold"><?= count($query_pesan) ?></span> Messages</h3>
-                                        <a href="#">view all</a>
-                                    </li>
-                                    <li>
-                                        <ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
-                                            <?php foreach ($query_pesan as $key => $value) {
-                                                ?>
-                                                <li>
-                                                    <a href="<?= base_url() . 'pesan/index' ?>">
-                                                        <span class="photo">
-                                                            <img src="<?= base_url() ?>assets/img/logo49.png" class="img-circle" alt=""> </span>
-                                                        <span class="subject">
-                                                            <span class="from"> Administrator </span>
-                                                            <span class="time">Just Now </span>
-                                                        </span>
-                                                        <span class="message"> <?= $value->title ?> </span>
-                                                    </a>
-                                                </li>
-                                            <?php } ?>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li> -->
                             <li class="dropdown dropdown-user">
                                 <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                     <?php
-
                                     $foto = ($this->auth->get_user_data()->foto_profil != "") ? $this->auth->get_user_data()->foto_profil : 'icon-user.png';
                                     ?>
-                                    <img alt="" class="img-circle" src="<?= base_url() ?>assets/img/<?= $foto ?>" />
+                                    <img alt="" class="img-circle" src="<?= base_url() . '_assets/img/tb-touch-icon.png' ?>" />
                                     <span class="username username-hide-on-mobile"> <?= $this->auth->get_user_data()->nama_user ?> </span>
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-default">
-                                    <!-- <li>
-                                        <a href="<?= base_url() . '' ?>">
-                                            <i class="icon-user"></i> Biodata </a>
-                                    </li> -->
-
-                                    <?php
-                                      $jenisuser=$this->auth->get_user_data()->jenis_user;
-
-                                      if ($jenisuser == 1) {
-                                    ?>
-
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-calendar"></i> Jadwal Uji </a>
-                                    </li>
-
-                                    <?php }else { echo ""; } ?>
-
                                     <li class="divider"> </li>
                                     <li>
                                         <a href="<?= base_url() . 'users/logout' ?>">
@@ -143,15 +93,7 @@
                     <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
                     <div class="page-sidebar navbar-collapse collapse">
                         <?php
-                          if ($jenisuser == 16) {
-                            $this->load->view('templates/responsive/showroom/menu');
-                          }elseif ($jenisuser == 17) {
-                            $this->load->view('templates/responsive/appraisal/menu');
-                          }elseif ($jenisuser == 5) {
-                            $this->load->view('templates/responsive/member/menu');
-                          }else {
-                            echo "";
-                          }
+                          $this->load->view('templates/responsive/menu');
                         ?>
                     </div>
                 </div>
