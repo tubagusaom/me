@@ -103,10 +103,10 @@
 		transition: ease all 300ms;
 	}
 	#header .header-nav-main nav > ul > li > a:hover {
-		color: #ef3447 !important;
+		color: #824710!important;
 	}
 	#header .header-nav-main nav > ul > li.dropdown-full-color.active > a {
-		color: #ef3447 !important;
+		color: #824710!important;
 	}
 	#header .header-nav-main nav > ul > li.dropdown-full-color.active:before {
 		content: '\f004';
@@ -115,7 +115,7 @@
 		position: absolute;
 		top: -13px;
 		left: 50%;
-		color: #ef3447;
+		color: #824710;
 		line-height: 0;
 		-webkit-transform: translateX(-50%);
 		-moz-transform: translateX(-50%);
@@ -269,11 +269,11 @@
 	color: #b7b8bc !important;
 }
 .thumb-bride-groom .social-icons li:hover {
-	border: 2px solid #ef3447;
+	border: 2px solid #824710;
 }
 .thumb-bride-groom .social-icons li:hover a {
 	background: none;
-	color: #ef3447 !important;
+	color: #824710!important;
 }
 
 .wedding-countdown #clock span {

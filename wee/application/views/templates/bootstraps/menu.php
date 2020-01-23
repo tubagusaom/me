@@ -27,22 +27,22 @@
 				<ul class="nav nav-pills" id="mainNav">
 					<li class="dropdown-full-color dropdown-quaternary active">
 						<a href="#header" data-hash data-hash-offset="50" data-collapse-nav>
-							Home
+							Beranda
 						</a>
 					</li>
 					<li class="dropdown-full-color dropdown-quaternary">
 						<a href="#the-wedding" data-hash data-hash-offset="50" data-collapse-nav>
-							The Wedding
+							Pernikahan
 						</a>
 					</li>
 					<li class="dropdown-full-color dropdown-quaternary">
 						<a href="#photos" data-hash data-hash-offset="50" data-collapse-nav>
-							Photos
+							Foto
 						</a>
 					</li>
 					<li class="dropdown-full-color dropdown-quaternary">
 						<a href="#guestbook" data-hash data-hash-offset="50" data-collapse-nav>
-							Guestbook
+							Buku Tamu
 						</a>
 					</li>
 					<!-- <li class="dropdown-full-color dropdown-quaternary">

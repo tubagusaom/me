@@ -4,7 +4,7 @@
     <div id="revolutionSlider" class="slider rev_slider manual">
       <ul>
         <li data-transition="notransition">
-          <img src="<?=base_url()?>_assets/img/demos/wedding/slides/slide-wedding-1.jpg"
+          <img src="<?=base_url()?>_assets/img/demos/wedding/slides/slide.png"
             alt=""
             data-bgposition="center center"
             data-bgfit="cover"
@@ -41,7 +41,7 @@
             data-start="1500"
             style="z-index: 5; font-size: 12px; font-weight: normal; padding: 15px 6px; line-height: 1;"
             data-transform_in="y:[-300%];opacity:0;s:500;">
-              <span style="border: 1px solid #fd6e6e; padding: 5px 30px; border-radius: 30px;">1 January 2020</span>
+              <span style="border: 1px solid #824710; padding: 5px 30px; border-radius: 30px;">1 Januari 2020</span>
           </a>
 
           <div class="tp-caption tp-resizeme rs-parallaxlevel-8"
@@ -128,7 +128,7 @@
             </div>
             <div class="bride-groom-infos">
               <h2 class="font-weight-normal m-none">Tera</h2>
-              <span class="text-uppercase text-color-primary font-weight-semibold">THE BRIDE</span>
+              <span class="text-uppercase text-color-primary font-weight-semibold">PENGANTIN PRIA</span>
               <p class="mt-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc...
               </p>
@@ -161,7 +161,7 @@
             </div>
             <div class="bride-groom-infos">
               <h2 class="font-weight-normal m-none">Byte</h2>
-              <span class="text-uppercase text-color-primary font-weight-semibold">THE GROOM</span>
+              <span class="text-uppercase text-color-primary font-weight-semibold">PENGANTIN WANITA</span>
               <p class="mt-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc...
               </p>
@@ -202,7 +202,7 @@
     <div class="container pb-xlg">
       <div class="row pt-xlg mt-xlg">
         <div class="col-md-8 col-md-offset-2">
-          <h2 class="alternative-font custom-font-size-1 text-color-primary center">The Wedding</h2>
+          <h2 class="alternative-font custom-font-size-1 text-color-primary center">Pernikahan</h2>
           <p class="center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc lacinia. Proin adipisci.
           </p>
@@ -217,15 +217,15 @@
             <div class="wedding-schedule-background"></div>
             <img class="icon-heart-white-border" src="<?=base_url()?>_assets/img/demos/wedding/the-wedding/icon-heart-white-border.png" alt />
             <div class="wedding-schedule-infos">
-              <h2 class="mt-md mb-none">Main Ceremony</h2>
-              <span class="date text-uppercase text-color-primary font-weight-bold">Wednesday, 1 January 2020</span>
+              <h2 class="mt-md mb-none">Akad Nikah</h2>
+              <span class="date text-uppercase text-color-primary font-weight-bold">Rabu, 1 Januari 2020</span>
               <span class="hour text-lg text-uppercase text-color-tertiary font-weight-bold mb-xlg">8:00 PM - 9:00 PM</span>
               <span class="local text-sm text-uppercase font-weight-bold mb-lg">
                 Amsterdam
                 <span>123 North Holland, Netherland</span>
               </span>
             </div>
-            <a class="btn btn-info popup-gmaps text-uppercase pl-lg pr-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155959.31704860413!2d4.763876694059083!3d52.354745886296996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C+Belanda!5e0!3m2!1sid!2sid!4v1566051878576!5m2!1sid!2sid">View Map &amp; Direction</a>
+            <a class="btn btn-info popup-gmaps text-uppercase pl-lg pr-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155959.31704860413!2d4.763876694059083!3d52.354745886296996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C+Belanda!5e0!3m2!1sid!2sid!4v1566051878576!5m2!1sid!2sid">Lihat peta</a>
           </div>
         </div>
         <div class="col-sm-8 col-md-5 col-sm-offset-2 col-md-offset-0 mt-xlg pt-xlg">
@@ -236,15 +236,15 @@
             <div class="wedding-schedule-background"></div>
             <img class="icon-heart-white-border" src="<?=base_url()?>_assets/img/demos/wedding/the-wedding/icon-heart-white-border.png" alt />
             <div class="wedding-schedule-infos">
-              <h2 class="mt-md mb-none">Wedding Party</h2>
-              <span class="date text-uppercase text-color-primary font-weight-bold">Wednesday, 1 January 2020</span>
+              <h2 class="mt-md mb-none">Pesta pernikahan</h2>
+              <span class="date text-uppercase text-color-primary font-weight-bold">Rabu, 1 Januari 2020</span>
               <span class="hour text-lg text-uppercase text-color-tertiary font-weight-bold mb-xlg">9:00 PM - Completed</span>
               <span class="local text-sm text-uppercase font-weight-bold mb-lg">
                 Amsterdam
                 <span>123 North Holland, Netherland</span>
               </span>
             </div>
-            <a class="btn btn-info popup-gmaps text-uppercase pl-lg pr-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155959.31704860413!2d4.763876694059083!3d52.354745886296996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C+Belanda!5e0!3m2!1sid!2sid!4v1566051878576!5m2!1sid!2sid">View Map &amp; Direction</a>
+            <a class="btn btn-info popup-gmaps text-uppercase pl-lg pr-lg" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155959.31704860413!2d4.763876694059083!3d52.354745886296996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C+Belanda!5e0!3m2!1sid!2sid!4v1566051878576!5m2!1sid!2sid">Lihat peta</a>
           </div>
         </div>
       </div>
@@ -292,7 +292,7 @@
     <div class="container">
       <div class="row mt-xlg pt-xlg">
         <div class="col-md-8 col-md-offset-2 center">
-          <h2 class="alternative-font custom-font-size-1 text-color-primary">Photos Prewedding</h2>
+          <h2 class="alternative-font custom-font-size-1 text-color-primary">Foto prewedding</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc lacinia. Proin adipisc.
           </p>
@@ -364,7 +364,7 @@
             </div>
           </div>
 
-          <button id="historyLoadMore" type="button" class="btn btn-secondary btn-xs custom-border-radius font-size-md text-color-light text-uppercase outline-none p-md pl-xlg pr-xlg m-auto mb-xlg mt-xlg">View More</button>
+          <button id="historyLoadMore" type="button" class="btn btn-secondary btn-xs custom-border-radius font-size-md text-color-light text-uppercase outline-none p-md pl-xlg pr-xlg m-auto mb-xlg mt-xlg">Lihat Lebih Banyak</button>
         </div>
       </div>
     </div>
@@ -374,7 +374,7 @@
       <div class="row center mt-xlg">
         <div class="col-md-12">
           <h2 class="alternative-font custom-font-size-1 text-color-light">
-            Guestbook
+            Buku Tamu
           </h2>
         </div>
       </div>
@@ -404,7 +404,7 @@
                 <span class="font-size-xs mt-sm display-block" id="guestBookErrorMessage"></span>
               </div>
 
-              <input type="submit" class="btn btn-secondary btn-xs custom-border-radius font-size-md text-uppercase text-color-light outline-none p-md pl-xlg pr-xlg m-auto mb-xlg mt-xlg" value="Send Message" />
+              <input type="submit" class="btn btn-secondary btn-xs custom-border-radius font-size-md text-uppercase text-color-light outline-none p-md pl-xlg pr-xlg m-auto mb-xlg mt-xlg" value="Kirim Pesan" />
             </div>
             <div class="custom-inner-border"></div>
           </form>
