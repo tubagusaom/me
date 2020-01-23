@@ -3,11 +3,11 @@ a {
 }
 
 a:hover {
-	color: #f14c5c;
+	color: #582f09;
 }
 
 a:focus {
-	color: #f14c5c;
+	color: #582f09;
 }
 
 a:active {
@@ -178,11 +178,11 @@ html ul.nav-pills-primary a {
 }
 
 html ul.nav-pills-primary a:hover {
-	color: #f14c5c;
+	color: #582f09;
 }
 
 html ul.nav-pills-primary a:focus {
-	color: #f14c5c;
+	color: #582f09;
 }
 
 html ul.nav-pills-primary a:active {
@@ -365,7 +365,7 @@ html .label-light {
 }
 
 .btn-link:hover {
-	color: #f14c5c;
+	color: #582f09;
 }
 
 .btn-link:active {
@@ -379,8 +379,8 @@ html .btn-primary {
 }
 
 html .btn-primary:hover {
-	border-color: #f14c5c #f14c5c #ed1c32;
-	background-color: #f14c5c;
+	border-color: #582f09 #582f09 #ed1c32;
+	background-color: #582f09;
 }
 
 html .btn-primary:active,
@@ -803,8 +803,8 @@ html .btn-borders.btn-primary:focus {
 
 html .btn-borders.btn-primary:hover:hover,
 html .btn-borders.btn-primary:focus:hover {
-	border-color: #f14c5c #f14c5c #ed1c32;
-	background-color: #f14c5c;
+	border-color: #582f09 #582f09 #ed1c32;
+	background-color: #582f09;
 }
 
 html .btn-borders.btn-primary:hover:active,
@@ -1135,8 +1135,8 @@ body.dark .pagination > .active > a {
 
 .pagination > .active > a:hover,
 body.dark .pagination > .active > a:hover {
-	border-color: #f14c5c #f14c5c #ed1c32;
-	background-color: #f14c5c;
+	border-color: #582f09 #582f09 #ed1c32;
+	background-color: #582f09;
 }
 
 .pagination > .active > a:active,
@@ -1862,8 +1862,8 @@ html .inverted-light {
 }
 
 .owl-carousel .owl-nav [class*="owl-"]:hover {
-	border-color: #f14c5c #f14c5c #ed1c32;
-	background-color: #f14c5c;
+	border-color: #582f09 #582f09 #ed1c32;
+	background-color: #582f09;
 }
 
 .owl-carousel .owl-nav [class*="owl-"]:active,
@@ -3036,11 +3036,11 @@ html[dir="rtl"] #header .tip.skin:before {
 
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary .dropdown-menu li a {
 		color: #ffffff;
-		border-bottom-color: #f14c5c;
+		border-bottom-color: #582f09;
 	}
 
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary .dropdown-menu li:hover > a {
-		background: #f14c5c;
+		background: #582f09;
 	}
 
 	html #header .header-nav-main nav > ul > li.dropdown-full-color.dropdown-primary .dropdown-menu li.dropdown-submenu > a:after {
@@ -3373,19 +3373,19 @@ html #header .header-top.header-top-primary {
 }
 
 html #header .header-top.header-top-primary .header-nav-top ul > li.open > a {
-	background: #f14c5c;
+	background: #582f09;
 }
 
 html #header .header-top.header-top-primary .header-nav-top ul > li > a:hover,
 html #header .header-top.header-top-primary .header-nav-top ul > li.open > a:hover,
 html #header .header-top.header-top-primary .header-nav-top ul > li > a:focus,
 html #header .header-top.header-top-primary .header-nav-top ul > li.open > a:focus {
-	background: #f14c5c;
+	background: #582f09;
 }
 
 html #header .header-top.header-top-primary .dropdown-menu {
-	background: #f14c5c;
-	border-color: #f14c5c;
+	background: #582f09;
+	border-color: #582f09;
 }
 
 html #header .header-top.header-top-primary .dropdown-menu a:hover,
@@ -3576,19 +3576,19 @@ html #header .header-top.header-top-light .dropdown-menu a:focus {
 }
 
 .testimonial blockquote {
-	background: #f14c5c;
+	background: #582f09;
 }
 
 .testimonial .testimonial-arrow-down {
-	border-top-color: #f14c5c;
+	border-top-color: #582f09;
 }
 
 html .testimonial-primary blockquote {
-	background: #f14c5c;
+	background: #582f09;
 }
 
 html .testimonial-primary .testimonial-arrow-down {
-	border-top-color: #f14c5c;
+	border-top-color: #582f09;
 }
 
 html .testimonial-secondary blockquote {
@@ -4207,7 +4207,7 @@ html .featured-boxes-full-scale > [class*="col-"]:nth-child(3) .featured-box-ful
 }
 
 html .featured-boxes-full-scale > [class*="col-"]:nth-child(4) .featured-box-full-primary {
-	background-color: #f14c5c;
+	background-color: #582f09;
 }
 
 html .featured-boxes-full-scale > [class*="col-"]:nth-child(5) .featured-box-full-primary {
@@ -4503,8 +4503,8 @@ html .slider-container .tp-caption-overlay-opacity-light {
 
 .tparrows.tparrows-carousel.tp-leftarrow:hover,
 .tparrows.tparrows-carousel.tp-rightarrow:hover {
-	border-color: #f14c5c #f14c5c #ed1c32;
-	background-color: #f14c5c;
+	border-color: #582f09 #582f09 #ed1c32;
+	background-color: #582f09;
 }
 
 .tparrows.tparrows-carousel.tp-leftarrow:active,
