@@ -1,22 +1,21 @@
-
     </div>
 
     <?php
-			foreach($adsense_bottom as $key=>$ads){
-				$script_ads=$ads->script_adsense;
-				$s_ads=substr($script_ads,1,5);
-
-				if ($s_ads == "scrip" OR $s_ads == "style") {
-					$tagopen='';
-					$script=$ads->script_adsense;
-					$tagclose='';
-				}else {
-					$tagopen='<script type="text/javascript">';
-					$script='tubagus.aom.swk@gmail.com';
-					$tagclose='</script>';
-				}
-				echo "$tagopen $script $tagclose";
-			}
+			// foreach($adsense_bottom as $key=>$ads){
+			// 	$script_ads=$ads->script_adsense;
+			// 	$s_ads=substr($script_ads,1,5);
+      //
+			// 	if ($s_ads == "scrip" OR $s_ads == "style") {
+			// 		$tagopen='';
+			// 		$script=$ads->script_adsense;
+			// 		$tagclose='';
+			// 	}else {
+			// 		$tagopen='<script type="text/javascript">';
+			// 		$script='tubagus.aom.swk@gmail.com';
+			// 		$tagclose='</script>';
+			// 	}
+			// 	echo "$tagopen $script $tagclose";
+			// }
 		?>
 
     <!-- Vendor -->
@@ -53,4 +52,5 @@
 		<script src="<?=base_url()?>_assets/js/theme.init.js"></script>
 
   </body>
+
 </html>

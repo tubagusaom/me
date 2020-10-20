@@ -16,7 +16,8 @@ class MY_Model extends CI_Model {
      * This model's default database table. Automatically
      * guessed by pluralising the modelFf name.
      */
-    protected $_kode_tbl = 'tbl3133_';
+    // protected $_kode_tbl = 'tbl3133_';
+    protected $_kode_tbl = 'lsp029_';
     protected $_table;
 
     /*     * alamat_ip_terakhir

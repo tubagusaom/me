@@ -19,7 +19,7 @@
  *
  */
 //	define('ENVIRONMENT','development');
-	define('ENVIRONMENT','production');
+	define('ENVIRONMENT','development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -29,7 +29,7 @@
  * By default development will show errors but testing and live will hide them.
  */
 
-if (defined('ENVIRONMENT'))
+if (defined('development'))
 {
 	switch (ENVIRONMENT)
 	{
@@ -192,13 +192,13 @@ if (defined('ENVIRONMENT'))
 
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
-	
+
 	define('_Asset_JS_', 'assets/js/');
 
 	define('_Asset_CSS_', 'assets/css/');
-	
+
 	define('_Asset_IMG_', 'assets/img/');
-	
+
 	define('_Asset_FILE_', 'assets/file/');
 
 /*

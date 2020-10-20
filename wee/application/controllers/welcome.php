@@ -4,11 +4,11 @@ class Welcome extends MY_Controller {
     function __construct()
     {
         parent::__construct();
-        $this->load->model('welcome_model');
-        $this->load->model('link_model');
-        $this->load->model('artikel_model');
-        $this->load->model('master_mobil_model');
-        $this->load->model('adsense_model');
+        // $this->load->model('welcome_model');
+        // $this->load->model('link_model');
+        // $this->load->model('artikel_model');
+        // $this->load->model('master_mobil_model');
+        // $this->load->model('adsense_model');
         $this->load->helper('text');
         $this->load->library('curl');
         $this->load->helper('cookie');
@@ -41,34 +41,40 @@ class Welcome extends MY_Controller {
 
     public function index()
     {
-        if(!$this->auth->is_logged_in())
-        {
-            $visitor = $this->initCounter();
+        // if(!$this->auth->is_logged_in())
+        // {
+        //     $visitor = $this->initCounter();
+        //
+        //     $this->load->model('artikel_model');
+        //     $data['marquee'] = $this->artikel_model->marquee();
+        //
+        //     $data['slideshow'] = $this->artikel_model->get_slideshow();
+        //     $data['berita_lsp'] = $this->artikel_model->berita_lsp();
+        //     $data['berita_bnsp'] = $this->artikel_model->berita_bnsp();
+        //     $data['menu_profil'] = $this->artikel_model->menu();
+        //     $data['berita_kompetensi'] = $this->artikel_model->berita_kompetensi();
+        //     $data['berita_lainnya'] = $this->artikel_model->berita_lainnya();
+        //     $data['adsense_top'] = $this->adsense_model->adsense_top();
+        //     $data['adsense_bottom'] = $this->adsense_model->adsense_bottom();
+        //     $data['data'] = $this->link_model->get_link();
+        //     $data['aplikasi'] = $this->db->get('r_konfigurasi_aplikasi')->row();
+        //     $data['class_active'] = 'home';
+        //     $data['berita_lsp_list'] = $this->artikel_model->berita_lsp_list();
+        //
+        //     $this->load->view('templates/bootstraps/header',$data);
+        //     $this->load->view('templates/bootstraps/body',$data);
+        //     $this->load->view('templates/bootstraps/bottom',$data);
+        // }
+        // else
+        // {
+        //     redirect(base_url() . 'home');
+        // }
 
-            $this->load->model('artikel_model');
-            $data['marquee'] = $this->artikel_model->marquee();
+        $data['Tera_Byte_'] = 'Tera_Byte_';
 
-            $data['slideshow'] = $this->artikel_model->get_slideshow();
-            $data['berita_lsp'] = $this->artikel_model->berita_lsp();
-            $data['berita_bnsp'] = $this->artikel_model->berita_bnsp();
-            $data['menu_profil'] = $this->artikel_model->menu();
-            $data['berita_kompetensi'] = $this->artikel_model->berita_kompetensi();
-            $data['berita_lainnya'] = $this->artikel_model->berita_lainnya();
-            $data['adsense_top'] = $this->adsense_model->adsense_top();
-            $data['adsense_bottom'] = $this->adsense_model->adsense_bottom();
-            $data['data'] = $this->link_model->get_link();
-            $data['aplikasi'] = $this->db->get('r_konfigurasi_aplikasi')->row();
-            $data['class_active'] = 'home';
-            $data['berita_lsp_list'] = $this->artikel_model->berita_lsp_list();
-
-            $this->load->view('templates/bootstraps/header',$data);
-            $this->load->view('templates/bootstraps/body',$data);
-            $this->load->view('templates/bootstraps/bottom',$data);
-        }
-        else
-        {
-            redirect(base_url() . 'home');
-        }
+        $this->load->view('templates/bootstraps/header',$data);
+        $this->load->view('templates/bootstraps/body',$data);
+        $this->load->view('templates/bootstraps/bottom',$data);
     }
 
     public function master_merek(){

@@ -2,13 +2,19 @@
 <html>
 	<head>
 
+		<title>
+			<?php
+				// $aplikasi->nama_unit;
+			?>
+			Weeding - Tera_Byte_
+		</title>
+
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-		<title><?=$aplikasi->nama_unit?></title>
-
-		<meta name="keywords" content="Weeding" />
+		<meta name="keywords" content="Nikah, nikah, Weeding, wedding, Website Wedding, website wedding , undangan , buat undangan online , buat undangan , undangan online"/>
 		<meta name="description" content="Weeding - Tera Byte">
 		<meta name="author" content="tera-byte.name">
 
@@ -63,24 +69,78 @@
 		</script>
 
 		<?php
-			foreach($adsense_top as $key=>$ads){
-				$script_ads=$ads->script_adsense;
-				$s_ads=substr($script_ads,1,5);
-
-				if ($s_ads == "scrip" OR $s_ads == "style") {
-					$tagopen='';
-					$script=$ads->script_adsense;
-					$tagclose='';
-				}else {
-					$tagopen='<script type="text/javascript">';
-					$script='tubagus.aom.swk@gmail.com';
-					$tagclose='</script>';
-				}
-				echo "$tagopen $script $tagclose";
-			}
+			// foreach($adsense_top as $key=>$ads){
+			// 	$script_ads=$ads->script_adsense;
+			// 	$s_ads=substr($script_ads,1,5);
+			//
+			// 	if ($s_ads == "scrip" OR $s_ads == "style") {
+			// 		$tagopen='';
+			// 		$script=$ads->script_adsense;
+			// 		$tagclose='';
+			// 	}else {
+			// 		$tagopen='<script type="text/javascript">';
+			// 		$script='tubagus.aom.swk@gmail.com';
+			// 		$tagclose='</script>';
+			// 	}
+			// 	echo "$tagopen $script $tagclose";
+			// }
 		?>
 
+		<style media="screen" type="text/css">
+		 #backgroundaudio {
+		  display: block;
+		  position: fixed;
+		  bottom: 0px;
+		  left: 5px;
+		  -webkit-transition: all 1s ease-in-out;
+		  -moz-transition: all 1s ease-in-out;
+		  -ms-transition: all 1s ease-in-out;
+		  -o-transition: all 1s ease-in-out;
+		  transition: all 1s ease-in-out;
+		  z-index:1000;
+		 }
+		 #backgroundaudio:hover {
+		  bottom: 0;
+		  -webkit-transition: all 1s ease-in-out;
+		  -moz-transition: all 1s ease-in-out;
+		  -ms-transition: all 1s ease-in-out;
+		  -o-transition: all 1s ease-in-out;
+		  transition: all 1s ease-in-out;
+		 }
+		 #backgroundaudio audio {
+			border-radius: 5px;
+		  background: #ffffff;
+		  padding: 2px;
+		  display: table-cell;
+		  vertical-align: middle;
+		  height: 30px;
+		  z-index: 9998;
+		 }
+		 #backgroundaudio i {
+		  font-size: 30px;
+		  display: block;
+		  background: #ffffff;
+		  padding: 5px;
+		  width: 50px;
+		  float: none;
+		  margin-bottom: -1px;
+		  z-index: 9999;
+		 }
+		</style>
+
+
+		<!-- <script type="text/javascript" src="<?=base_url()?>_assets/js/custom.js"
+		data-config="{'skin':'https://static.tumblr.com/su8juwr/OBMmp2h7u/cora____o.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Marry Your Daughter','url':'http://wtb.indonesia-kompeten.com/assets/files/audio/marry_your_daughter.mp3'}]}" ></script> -->
 	</head>
+	
+	<div id="backgroundaudio">
+	 <audio id="audioId" controls>
+		<source src="<?=base_url()?>assets/files/audio/marry_your_daughter.mp3" type="audio/mp3"></source>
+	 </audio>
+
+	 <!-- <audio src="<?=base_url()?>assets/files/audio/marry_your_daughter.mp3" controls autoplay="true" loop="true" preload></audio> -->
+	</div>
+
 	<body data-target="#header" data-spy="scroll" data-offset="100">
 
 		<div class="body">
