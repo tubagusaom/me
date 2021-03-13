@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
 <script type="text/javascript">
 // if($_SERVER['HTTPS']!="on") {
 //   window.location.href = 'https://tb.indonesia-kompeten.com/tubagus/?Profile';
@@ -213,8 +212,8 @@ body {
   <div class="span3">
     <div class="bg-image-qrcode">
       <div class="div-qrcode">
-        <!-- <a href="https://www.instagram.com/tera.byte__/" target="_blank"> -->
-        <img id="img-qr" src="../plugin/phpqrcode/temp/qr-code-linkedin.png" alt="tera.byte__" style="cursor: pointer">
+        <!-- <a href="https://www.instagram.com/tera.bytee/" target="_blank"> -->
+        <img id="img-qr" src="../plugin/phpqrcode/temp/qr-code-linkedin.png" alt="tera.bytee" style="cursor: pointer">
         <!-- </a> -->
       </div>
     </div>
@@ -225,11 +224,11 @@ body {
       TB AOM
     </h1>
 
-    <h3>Developer - Web Programmer</h3>
+    <h3>Web Developer</h3>
     <p style="padding:5px">
       Hello I'm TB AOM <br>
       <font style="font-size: 16px">
-        Developer - Web Programmer from <b class="text-idn">INDONESIA</b>
+        Web Developer from <b class="text-idn">INDONESIA</b>
         <!-- <span class="flag-icon flag-icon-id" style="font-size: 14px"></span> -->
       </font> <br><br>
       <i style="color:#ffe332; font-weight: 500">They are smart because they know first</i> &#128521;</h2>
@@ -241,6 +240,7 @@ body {
 
   </div>
 </div>
+
 <!-- <div class="row social">
   <ul class="social-icons"> -->
     <!-- <li><a href="https://www.facebook.com/Rock.Sla.N.ker.RolL" target="_blank"><img src="../img/fb.png" alt=""></a></li>
@@ -254,10 +254,10 @@ body {
 <div class="footer" href="../css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
   <div class="container">
     <p id="copyright-tb-hp" class="pull-left">
-      Copyright © 2017 <a href="https://www.instagram.com/tera.byte__/" class="instagram" target="_blank"><b><i class="fa fa-instagram"></i> tera.byte</b></a> .
+      Copyright © 2017 <a href="https://www.instagram.com/coits.id/" class="instagram" target="_blank"><b><i class="fa fa-instagram"></i> tera.byte</b></a> .
     </p>
     <p id="copyright-tb-desktop" class="pull-left">
-      Copyright © 2017 <a href="https://www.instagram.com/tera.byte__/" class="instagram" target="_blank"><b><i class="fa fa-instagram"></i> tera.byte</b></a> .  All Rights Reserved
+      Copyright © 2017 <a href="https://www.instagram.com/coits.id/" class="instagram" target="_blank"><b><i class="fa fa-instagram"></i> tera.byte</b></a> .  All Rights Reserved
     </p>
     <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal">
       <i class="icon-user"></i> CONTACT</a>
@@ -282,13 +282,13 @@ body {
     <div class="row social">
       <ul class="social-icons">
         <li>
-          <a href="mailto:ter4.byte@yahoo.com">
-            <img class="social-img" src="../img/ym.png" alt="ter4.byte@yahoo.com">
+          <a href="https://www.linkedin.com/in/tera-byte/" target="_blank">
+            <img class="social-img" class="social-img" src="../img/linkedIn.png" alt="tera-byte">
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/Rock.Sla.N.ker.RolL" target="_blank">
-            <img class="social-img" src="../img/fb.png" style="border-radius: 8px" alt="Aom">
+          <a href="https://www.instagram.com/tera.bytee/" target="_blank">
+            <img class="social-img" class="social-img" src="../img/ig.png" alt="tera.bytee">
           </a>
         </li>
         <li>
@@ -297,13 +297,13 @@ body {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/tera.byte__/" target="_blank">
-            <img class="social-img" class="social-img" src="../img/ig.png" alt="tera.byte__">
+          <a href="https://www.facebook.com/Rock.Sla.N.ker.RolL" target="_blank">
+            <img class="social-img" src="../img/fb.png" style="border-radius: 8px" alt="Aom">
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/tera-byte/" target="_blank">
-            <img class="social-img" class="social-img" src="../img/linkedIn.png" alt="tera-byte">
+          <a href="mailto:coitshophisticated@yahoo.com">
+            <img class="social-img" src="../img/ym.png" alt="coitshophisticated@yahoo.com">
           </a>
         </li>
         <!-- <li>

@@ -525,7 +525,7 @@ window.theme.fn = {
 		effect: 'show',
 		appearEffect: '',
 		appear: function(elements_left, settings) {
-			
+
 		},
 		load: function(elements_left, settings) {
 			$(this).addClass($.trim('lazy-load-loaded ' + settings.appearEffect));
@@ -1382,7 +1382,7 @@ window.theme.fn = {
 		sliderLayout: 'fullwidth',
 		delay: 9000,
 		gridwidth: 1170,
-		gridheight: 500,
+		gridheight: 50,
 		spinner: 'spinner3',
 		disableProgressBar: 'on',
 		parallax: {
@@ -1768,13 +1768,13 @@ window.theme.fn = {
 			self.$destination.attr('data-filter', filter).isotope({
 				filter: currentFilter
 			}).one('arrangeComplete', function( event, filteredItems ) {
-				
+
 				if (self.options.useHash) {
 					if (window.location.hash != '' || self.options.filter.replace('.', '') != '*') {
 						window.location.hash = self.options.filter.replace('.', '');
 					}
 				}
-				
+
 				$(window).trigger('scroll');
 
 			}).trigger('filtered');
@@ -1877,9 +1877,9 @@ window.theme.fn = {
 
 // Sticky
 (function(theme, $) {
-	
+
 	theme = theme || {};
-	
+
 	var instanceName = '__sticky';
 
 	var PluginSticky = function($el, opts) {
@@ -1928,7 +1928,7 @@ window.theme.fn = {
 
 			var self = this,
 				$window = $(window);
-			
+
 			self.options.wrapper.pin(self.options);
 
 			$window.afterResize(function() {
@@ -1936,7 +1936,7 @@ window.theme.fn = {
 				self.options.wrapper.pin(self.options);
 				$window.trigger('scroll');
 			});
-			
+
 			return this;
 		}
 	};
@@ -1956,7 +1956,7 @@ window.theme.fn = {
 			} else {
 				return new PluginSticky($this, opts);
 			}
-			
+
 		});
 	}
 
@@ -2312,7 +2312,7 @@ window.theme.fn = {
 					e.preventDefault();
 					$.get(self.options.refreshCaptchaURL, function(url) {
 						$('#captcha-image').attr('src', url);
-					});					
+					});
 				});
 
 			},
@@ -2422,9 +2422,9 @@ window.theme.fn = {
 
 // Word Rotate
 (function(theme, $) {
-	
+
 	theme = theme || {};
-	
+
 	var instanceName = '__wordRotate';
 
 	var PluginWordRotate = function($el, opts) {
@@ -2481,7 +2481,7 @@ window.theme.fn = {
 				.width(firstItem.width() + "px")
 				.append(firstItemClone);
 
-			$el				
+			$el
 				.addClass("active");
 
 			setInterval(function() {
@@ -2530,7 +2530,7 @@ window.theme.fn = {
 			} else {
 				return new PluginWordRotate($this, opts);
 			}
-			
+
 		});
 	}
 
@@ -2783,18 +2783,18 @@ window.theme.fn = {
  				var isIE9        = $html.hasClass('ie9'),
  					isHeaderFlex = $header.hasClass('header-flex')
  					isEdge       = /Edge/.test(navigator.userAgent);
- 
+
  				if( isIE9 && isHeaderFlex && $window.width() > 991 ) {
- 					headerNavHeight = 
+ 					headerNavHeight =
 
  					$header.find('.header-nav').css({
  						height: ( $header.find('.header-top').get(0) ) ? ( $header.find('.header-body').height() - $header.find('.header-top').outerHeight() ) + 4 : $header.find('.header-body').height()
  					});
- 
+
  					$header.find('.header-nav-main nav > ul > li > a').css({
  						'line-height': $('.header-nav-main nav > ul > li > a').height() + 'px'
  					});
- 
+
  					$header.find('.header-nav .header-social-icons').css({
  						'line-height': $header.find('.header-nav').height() + 'px'
  					});
@@ -3082,7 +3082,7 @@ window.theme.fn = {
 						self.deactivateStickyHeader();
 					}
 				};
-				
+
 				// Activate Sticky Header
 				self.activateStickyHeader = function() {
 

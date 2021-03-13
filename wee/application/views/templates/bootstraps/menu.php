@@ -1,18 +1,19 @@
+<style media="screen">
+	@font-face {
+		font-family: "fonttebe";
+		src: url('<?=base_url()?>assets/fonts/fonttb/LoversQuarrel-Regular.otf');
+	}
+</style>
+
 <div class="header-body">
 	<div class="header-container container">
 		<div class="header-row">
 			<div class="header-column header-column-center">
 				<div class="header-logo">
 					<a href="">
-						 _
-					</a>
-					<a href="">
 						<span class="header-logo-text">
-							 &nbsp; Tera &amp; Byte &nbsp;
+							 &nbsp; Jamal &amp; Nadia &nbsp;
 						</span>
-					</a>
-					<a href="javascript:void;" id="TeraByteButton" >
-						 _
 					</a>
 				</div>
 			</div>
@@ -40,11 +41,11 @@
 							Foto
 						</a>
 					</li>
-					<li class="dropdown-full-color dropdown-quaternary">
+					<!-- <li class="dropdown-full-color dropdown-quaternary">
 						<a href="#guestbook" data-hash data-hash-offset="50" data-collapse-nav>
 							Buku Tamu
 						</a>
-					</li>
+					</li> -->
 					<!-- <li class="dropdown-full-color dropdown-quaternary">
 						<a href="javascript:void;" id="TeraByteButton" >
 							Login

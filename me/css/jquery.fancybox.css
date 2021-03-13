@@ -207,6 +207,10 @@
 
 .fancybox-opened .fancybox-title {
 	visibility: visible;
+	font-weight: bold;
+	padding-left: 5px;
+	font-size: 1.3em;
+	color: #355267;
 }
 
 .fancybox-title-float-wrap {

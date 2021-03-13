@@ -3977,6 +3977,7 @@ to {
 	opacity: 0.8;
 	filter: alpha(opacity=80);
 }
+
 .modal {
 	position: fixed;
 	top: 10%;

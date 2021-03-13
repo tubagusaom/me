@@ -31,19 +31,39 @@
 </style>
 
 <script type="text/javascript">
-  if (location.protocol != 'https:')
-  {
-   location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-  }
+  // if (location.protocol != 'https:'){
+  //   location.href = "https://tb.indonesia-kompeten.com";
+  // }
+
+  // if (location.protocol != 'https:')
+  // {
+  //  location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+  // }
 </script>
+
+
 
 <?php
   // function redirectTohttps() {
   //   if($_SERVER['HTTPS']!="off") {
   //   // $redirect= "https:".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-  //   $redirect= "https:tb.indonesia-kompeten.com";
-  //   header("Location:$redirect"); }
+    // $redirect= "https:tb.indonesia-kompeten.com";
+    // header("Location:$redirect");
   // }
+  // }
+
+  // batas
+
+  // $host_url = $_SERVER['HTTP_HOST'];
+  // $b_url = 'http://tb.indonesia-kompeten.com';
+  //
+  // if ($host_url = 'mandala.web.id') {
+  // 	header("Location: $b_url");
+  // }else {
+  // 	echo "";
+  // }
+
+
 
   include "../config/module.php";
 ?>

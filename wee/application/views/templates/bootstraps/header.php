@@ -6,21 +6,20 @@
 			<?php
 				// $aplikasi->nama_unit;
 			?>
-			Weeding - Tera_Byte_
+			Weeding - Jamal & Nadia
 		</title>
 
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
 		<meta name="keywords" content="Nikah, nikah, Weeding, wedding, Website Wedding, website wedding , undangan , buat undangan online , buat undangan , undangan online"/>
-		<meta name="description" content="Weeding - Tera Byte">
-		<meta name="author" content="tera-byte.name">
+		<meta name="description" content="Sabtu, 21 November 2020">
+		<meta name="author" content="tera.byte__">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="<?=base_url()?>_assets/img/tb-touch-icon.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="<?=base_url().'_assets/img/tb-touch-icon.png'?>">
+		<link rel="shortcut icon" href="<?=base_url()?>tb-touch-icon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="<?=base_url()?>assets/files/image/muslim-wedding.jpg">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -59,14 +58,15 @@
 
 		<script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 		<script type="text/javascript">
-		var base_url = "<?php echo base_url() ?>";
+			var base_url = "<?php echo base_url() ?>";
 		</script>
-		<script src="<?php echo base_url() ?>assets/js/public/login.js" type="text/javascript"></script>
-    	<script type="text/javascript">
-		function login_click(){
-		    $('#btn-login').click();
-		}
-		</script>
+
+		<!-- <script src="<?php echo base_url() ?>assets/js/public/login.js" type="text/javascript"></script>
+    <script type="text/javascript">
+			function login_click(){
+			    $('#btn-login').click();
+			}
+		</script> -->
 
 		<?php
 			// foreach($adsense_top as $key=>$ads){
@@ -132,10 +132,10 @@
 		<!-- <script type="text/javascript" src="<?=base_url()?>_assets/js/custom.js"
 		data-config="{'skin':'https://static.tumblr.com/su8juwr/OBMmp2h7u/cora____o.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Marry Your Daughter','url':'http://wtb.indonesia-kompeten.com/assets/files/audio/marry_your_daughter.mp3'}]}" ></script> -->
 	</head>
-	
+
 	<div id="backgroundaudio">
 	 <audio id="audioId" controls>
-		<source src="<?=base_url()?>assets/files/audio/marry_your_daughter.mp3" type="audio/mp3"></source>
+		<source src="<?=base_url()?>assets/files/audio/christina-perri-a-thousand-years.mp3" type="audio/mp3"></source>
 	 </audio>
 
 	 <!-- <audio src="<?=base_url()?>assets/files/audio/marry_your_daughter.mp3" controls autoplay="true" loop="true" preload></audio> -->
